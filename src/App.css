@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#heading-1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  font-style: oblique;
+  font-display: swap;
+}
+
+/* #btn-1 {
+  background-color: #ffff00;
+  color: #ff0090;
+  border: 2px solid #a52a2a;
+}
+
+#btn-2 {
+  background-color: crimson;
+  color: chartreuse;
+  border: 2px solid #a52a2a;
+} */
+
+#text-1 {
+  border: 2px solid black;
+}
+
+#web {
+  text-align: center;
+}
+#icon-1 {
+  color: yellow;
+  background-color: cyan;
+  border: 1px solid black;
+}
+#icon-2 {
+  color: blue;
+  background-color: cyan;
+  border: 1px solid black;
+}
+#icon-3 {
+  color: red;
+  background-color: cyan;
+  border: 1px solid black;
+}
+#color-1{
+  color:black;
+  background-color:grey;
+}
+#profile-1{
+  background-color: yellow;
+}
+#profile-2{
+  background-color:blue;
+}
+#profile-3{
+  background-color:red;
+}
